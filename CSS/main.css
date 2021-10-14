@@ -1,4 +1,4 @@
-.root {
+:root {
 /* Primary */
     --strong-cyan: hsl(172, 67%, 45%);
 /* Neutral */
@@ -20,5 +20,9 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    /* background-color: var(--very-dark-cyan); */
 }
 
+body {
+    background-color: var(--strong-cyan);
+}
