@@ -14,3 +14,11 @@
 - Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
 - Weights: 400, 500, 700 */
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
