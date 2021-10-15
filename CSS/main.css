@@ -49,7 +49,7 @@ main {
 }
 
 main .main_section1 .main_section1_moneyiconimg {
-    background-image: url(/Assets/Images/icon-dollar.svg);
+    background-image: ('/Assets/Images/icon-dollar.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
