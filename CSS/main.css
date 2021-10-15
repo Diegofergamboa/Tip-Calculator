@@ -45,10 +45,15 @@ main {
     margin: 0 auto;
     height: 76rem;
     border-radius: 20px 20px 0 0;
-    font-size: 24px;
+    font-size: 10rem;
 }
 
-main .main_section1 {
-
+main .main_section1 .main_section1_moneyiconimg {
+    background-image: url(/Assets/Images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 25px;
+    height: 25px;
 }
 
