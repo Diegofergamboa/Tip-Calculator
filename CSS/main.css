@@ -48,12 +48,24 @@ main {
     font-size: 10rem;
 }
 
+main .main_section1 .main_section1_moneyicon {
+    border: var(--very-dark-cyan) solid 1px;
+    background-color: var(--clear-cyan);
+    width: 90%;
+} 
+
 main .main_section1 .main_section1_moneyiconimg {
     background-image: url("/Assets/Images/icon-dollar.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+    margin: 1rem;
+}
+
+main .main_section1_moneyicon .main_section1_billScreen {
+    border: none;
+    outline: none;
 }
 
