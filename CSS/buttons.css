@@ -21,5 +21,6 @@ main .main_section1_buttons button {
     border-radius: 5px;
     width: 15rem;
     height: 5rem;
-    background-color: var(--);
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
 }
