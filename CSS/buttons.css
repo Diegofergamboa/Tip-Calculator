@@ -23,4 +23,6 @@ main .main_section1_buttons button {
     height: 5rem;
     background-color: var(--very-dark-cyan);
     color: var(--white);
+    border: none;
+    font-size: 2.4rem;
 }

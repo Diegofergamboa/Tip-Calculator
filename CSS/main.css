@@ -3,7 +3,7 @@
 :root {
 /* Primary */
     --strong-cyan: hsl(172, 67%, 45%);
-    --clear-cyan: hsl(172, 30%, 79%);
+    --clear-cyan: hsl(170, 46%, 73%);
 /* Neutral */
     --very-dark-cyan: hsl(183, 100%, 15%);
     --dark-grayish-cyan: hsl(186, 14%, 43%);
@@ -74,7 +74,7 @@ main .main_section1_input {
 
 main .main_section1 .main_section1_moneyicon {
     border: var(--very-dark-cyan) solid 1px;
-    background-color: var(--clear-cyan);
+    background-color: var(--light-grayish-cyan);
     width: 90%;
     display: flex;
     flex-flow: row wrap;
