@@ -27,6 +27,13 @@ main .main_section1_buttons button {
     font-size: 2.4rem;
 }
 
-    main .main_section1_buttons .main_section1_btn :hover {
+    .main_section1_buttons :hover {
         cursor: pointer;
     }
+
+    .main_section1_buttons :active {
+        opacity: 0,9;
+        background-color: var(--strong-cyan);
+        color: var(--very-dark-cyan);
+    }
+    
