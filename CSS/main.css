@@ -70,6 +70,7 @@ main .main_section1 .main_section1_moneyicon {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3rem;
+    border-radius: 5px;
 }
 
 main .main_section1 .main_section1_moneyiconimg {
