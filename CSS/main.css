@@ -89,5 +89,8 @@ main .main_section1_moneyicon .main_section1_billScreen {
     outline: none;
     width: 80%;
     background-color: transparent;
+    margin-right: -20rem;
+    color: var(--very-dark-cyan);
+    font-size: 2.4rem;
 }
 
