@@ -50,6 +50,10 @@ main {
     font-size: 10rem;
 }
 
+main .main_section1 {
+    display: flex;
+    flex-flow: column nowrap;
+}
 
 /* Main section from the input */
 
