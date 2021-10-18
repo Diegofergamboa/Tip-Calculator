@@ -48,11 +48,29 @@ main {
     font-size: 10rem;
 }
 
+
+main .main_section1_input {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+    main .main_section1_bill {
+        margin-top: 3rem;
+        margin-right: 30rem ;
+        margin-bottom: 1rem;
+    }
+
 main .main_section1 .main_section1_moneyicon {
     border: var(--very-dark-cyan) solid 1px;
     background-color: var(--clear-cyan);
     width: 90%;
-} 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
 
 main .main_section1 .main_section1_moneyiconimg {
     background-image: url("/Assets/Images/icon-dollar.svg");
@@ -67,5 +85,7 @@ main .main_section1 .main_section1_moneyiconimg {
 main .main_section1_moneyicon .main_section1_billScreen {
     border: none;
     outline: none;
+    width: 80%;
+    background-color: transparent;
 }
 
