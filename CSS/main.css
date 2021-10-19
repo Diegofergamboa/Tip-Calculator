@@ -169,8 +169,7 @@ main .main_section2 .screen_section {
 main .main_section2 .screen_section .main_section2_screenoutput2{
     display: flex;
     flex-flow: row ;
-    justify-content: space-around;
-    border: 1px solid black;
+    justify-content: space-between;
     height: 5rem;
     align-items: center;
     width: 100%;
@@ -185,6 +184,10 @@ main .main_section2 .screen_section input {
     color: var(--strong-cyan);
     font-size: 2.4rem;
     height: 5rem;
+}
+main .main_section2 .screen_section .main_section2_screenoutput2_screenInput {
+    width: 50%;
+    margin-right: 2.7rem;
 }
 
 main .main_section2 .total_person {
@@ -202,7 +205,6 @@ main .main_section2 .total_screen {
 }
 
 main .main_section2 .screen_section .main_section2_screenoutput3 {
-    border: 1px solid black;
     display: flex;
     flex-flow: row;
     align-content: space-between;
@@ -216,7 +218,10 @@ main .main_section2 .screen_section .main_section2_screenoutput3 {
 main .main_section2 .screen_section .main_section2_screenoutput_button_reset {
     width: 25rem;
     height: 5rem;
-    border: 1px solid black;
+    outline: none;
+    border: transparent;
     background-color: var(--strong-cyan);
-    
+    border-radius: 5px;
+    color: var(--very-dark-cyan);
+    font-size: 2rem;
 }
