@@ -162,6 +162,13 @@ main .main_section2 .screen_section {
     border: 1px solid black;
     width: 90%;
     margin-left: 2rem;
-    height: 25rem;   
+    height: 20rem;   
+}
+
+main .main_section2 .screen_section .main_section2_screenoutput2{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    height: 5rem;
 }
 
