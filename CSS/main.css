@@ -172,3 +172,10 @@ main .main_section2 .screen_section .main_section2_screenoutput2{
     height: 5rem;
 }
 
+main .main_section2 .screen_section .main_section2_screenoutput3 {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    height: 5rem;
+}
+
