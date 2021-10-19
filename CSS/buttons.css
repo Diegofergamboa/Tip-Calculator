@@ -37,3 +37,21 @@ main .main_section1_buttons button {
         color: var(--very-dark-cyan);
     }
     
+.custom_box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+    .main_section1_customScreen {
+        width: 15rem;
+        height: 5rem;
+        margin-left: 4rem;
+        outline: none;
+        border-radius: 5px;
+        color: var(--very-dark-cyan);
+        text-align: right;
+        font-size: 2.4rem;
+        padding: 1rem;
+        background-color: var(--light-grayish-cyan);
+    }

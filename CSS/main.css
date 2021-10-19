@@ -55,7 +55,7 @@ main .main_section1 {
     flex-flow: column nowrap;
 }
 
-/* Main section from the input */
+/* First main section from the input */
 
 main .main_section1_input {
     display: flex;
@@ -106,5 +106,36 @@ main .main_section1_moneyicon .main_section1_billScreen {
 }
 
 /* Main section buttons imported */
+
+/* Second main section */
+    /* Second main section INPUT*/
+
+main .main_section2 {
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+main .main_section2 .main_section2_numberOfPeople {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--very-dark-cyan);
+}
+
+main .main_section2 .main_section2_screenoutput .main_section2_peopleIcon {
+    background-image: url("/Assets/Images/icon-person.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+main .main_section2 .main_section2_screenoutput {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 1rem;
+}
+
+
 
 
