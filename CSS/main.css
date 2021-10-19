@@ -156,7 +156,7 @@ main .main_section2 .screen_section {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    align-content: center;
+    justify-content: space-around;
     background-color: var(--very-dark-cyan);
     border-radius: 10px;
     border: 1px solid black;
@@ -168,14 +168,23 @@ main .main_section2 .screen_section {
 main .main_section2 .screen_section .main_section2_screenoutput2{
     display: flex;
     flex-flow: row wrap;
-    align-content: space-between;
+    border: 1px solid black;
     height: 5rem;
+    align-items: center;
+    width: 100%;
 }
 
 main .main_section2 .screen_section .main_section2_screenoutput3 {
+    border: 1px solid black;
     display: flex;
     flex-flow: row wrap;
     align-content: space-between;
     height: 5rem;
+    width: 100%;
 }
 
+main .main_section2 .screen_section .main_section2_screenoutput_button_reset {
+    width: 25rem;
+    height: 5rem;
+    border: 1px solid black;
+}
