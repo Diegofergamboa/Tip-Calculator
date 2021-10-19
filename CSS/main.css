@@ -168,10 +168,17 @@ main .main_section2 .screen_section {
 main .main_section2 .screen_section .main_section2_screenoutput2{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     border: 1px solid black;
     height: 5rem;
     align-items: center;
     width: 100%;
+}
+
+main .main_section2 .screen_section input {
+    background-color: transparent;
+    border: none;
+    text-align: right;
 }
 
 main .main_section2 .screen_section .main_section2_screenoutput3 {
