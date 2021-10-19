@@ -132,10 +132,21 @@ main .main_section2 .main_section2_screenoutput .main_section2_peopleIcon {
 
 main .main_section2 .main_section2_screenoutput {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+    align-items:flex-start;
     margin: 1rem;
+    border: 1px solid var(--very-dark-cyan);
+    border-radius: 5px;
+    width: 90%;
 }
 
+main .main_section2 .main_section2_screenoutput .main_section2_screenInput {
+    background-color: var(--light-grayish-cyan);
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    width: 80%;
+}
 
 
 
