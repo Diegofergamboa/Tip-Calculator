@@ -179,6 +179,13 @@ main .main_section2 .screen_section input {
     background-color: transparent;
     border: none;
     text-align: right;
+    color: var(--strong-cyan);
+    font-size: 2.4rem;
+}
+
+main .main_section2 .total_person {
+    display: flex;
+    flex-flow: column;
 }
 
 main .main_section2 .screen_section .main_section2_screenoutput3 {
