@@ -91,6 +91,7 @@ main .main_section1 .main_section1_moneyiconimg {
     width: 20px;
     height: 20px;
     margin: 1rem;
+    border: none;
 }
 
 main .main_section1_moneyicon .main_section1_billScreen {
@@ -167,12 +168,14 @@ main .main_section2 .screen_section {
 
 main .main_section2 .screen_section .main_section2_screenoutput2{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row ;
+    justify-content: space-around;
     border: 1px solid black;
     height: 5rem;
     align-items: center;
     width: 100%;
+    margin: 1rem;
+    /* margin-right: 1rem; */
 }
 
 main .main_section2 .screen_section input {
@@ -181,14 +184,14 @@ main .main_section2 .screen_section input {
     text-align: right;
     color: var(--strong-cyan);
     font-size: 2.4rem;
-
+    height: 5rem;
 }
 
 main .main_section2 .total_person {
     display: flex;
     flex-flow: column;
     font-size: 3rem;
-    color: var(--white);
+    color: var(--white); 
 }
 
 main .main_section2 .total_screen {
@@ -205,7 +208,10 @@ main .main_section2 .screen_section .main_section2_screenoutput3 {
     align-content: space-between;
     height: 5rem;
     width: 100%;
+    margin: 1rem;
 }
+
+
 
 main .main_section2 .screen_section .main_section2_screenoutput_button_reset {
     width: 25rem;
