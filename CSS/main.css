@@ -152,5 +152,16 @@ main .main_section2 .main_section2_screenoutput .main_section2_screenInput {
     color: var(--very-dark-cyan);
 }
 
-
+main .main_section2 .screen_section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    background-color: var(--very-dark-cyan);
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 2rem;
+    height: 15rem;   
+}
 
